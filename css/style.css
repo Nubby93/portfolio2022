@@ -44,6 +44,9 @@ h3 {
 
     align-items: center;
     align-content: center;
+    justify-content: center;
+
+    margin-top: 10vh;
 }
 
 .flex-col-left {
@@ -117,5 +120,12 @@ h3 {
     h5 {
         font-size: 24px;
     }
+
+
+    .flex-center {
+        margin-top: 25vh;
+    }
+
+
     }
     

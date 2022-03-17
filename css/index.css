@@ -210,6 +210,8 @@ mark{
 	line-height: 24px;
 	letter-spacing: 0.32em;
 	color: var(--blue);
+
+	z-index: 10000;
 }
 
 .left-logo:hover {
@@ -220,7 +222,7 @@ mark{
 	position: fixed;
     top: 40px;
     right: 40px;
-    z-index: 20000;
+    z-index: 30000;
     cursor: pointer;
     color: var(--white);
 
