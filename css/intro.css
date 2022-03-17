@@ -1,0 +1,100 @@
+
+
+.intro {
+  background: var(--black);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  background: var(--blue);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+
+.intro-text {
+  color: var(--white);
+  font-size: 88px;
+}
+
+.hide {
+  background: none;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
+
+
+/* On scroll animation */
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+
+
+
+
+
+/* # Dot Cursor
+================================================== */
+
+* {
+	cursor: none;
+}
+.cursor {
+    --size: 8px;
+    height: var(--size);
+    width:  var(--size);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10000;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+.cursor.cursor-shadow {
+    background-color: transparent;
+    border: 1px solid #fff;
+    --size: 40px;
+    transition: top .2s, left .2s,
+                width .2s, height .2s,
+                background-color .2s, border-color 0.2s;
+    transition-timing-function: ease-out;
+}
+.cursor.cursor-dot {
+    background: #7f6ed2;
+    transition: width .2s, height .2s;
+}
+.cursor-shadow.active {
+    --size: 80px;
+    border-color: rgba(255,255,255, 0);
+    background-color: rgba(255,255,255,.1);
+}
+.cursor-dot.active {
+	  --size: 0;
+}
+a {
+	  cursor: pointer;
+}

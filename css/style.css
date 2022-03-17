@@ -1,0 +1,121 @@
+/* html {
+    scroll-behavior: smooth;
+  } */
+  
+
+h1 {
+    font-size: 88px;
+    line-height: 104px;
+    text-align: center;
+
+    max-width: 1250px;
+}
+
+h2 {
+    font-family: 'TIMMONSNY', sans-serif;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: 0.08em;
+
+    color: var(--grey);
+    margin-left: 40px;
+    padding: 0;
+}
+
+h3 {
+    font-size: 72px;
+    line-height: 72px;
+}
+
+/* All the containers and flex containers */
+
+.section-container {
+    width: 100vw;
+    height: 100vh;
+
+    padding: 15vh 0;
+}
+
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+
+    align-items: center;
+    align-content: center;
+}
+
+.flex-col-left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+
+.featured-flex-grid {
+    display: flex;
+    flex-direction: column;
+    row-gap: 160px;
+}
+
+.flex-row-center {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px; 
+    align-items: center;
+}
+
+.align-featured-project {
+    margin-left: 25vw;
+}
+
+.align-button-center {
+    margin-left: 50vw;
+    width: 100%;
+    margin-top:80px;
+}
+
+
+
+
+/* Buttons */
+
+
+.primary-button {
+    color: var(--blue);
+}
+
+.primary-button:hover {
+    color: var(--black);
+}
+
+ @media screen and (max-width: 1100px) and (min-width: 700px){
+
+    h1 {
+        font-size: 64px;
+    }
+    
+    h2 {
+        font-size: 56px;
+    }
+    
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+    
+    h1 {
+        font-size: 56px;
+    }
+    
+    h2 {
+        font-size: 48px;
+    }
+    
+    h5 {
+        font-size: 24px;
+    }
+    }
+    

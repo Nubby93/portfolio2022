@@ -1,0 +1,133 @@
+h1 {
+    text-align: left;
+}
+
+h2 {
+    margin-left: 0;
+}
+
+.title-position {
+    position: relative;
+    top: 40vh;
+    margin-left: 40px;
+}
+
+
+.quote-person {
+    font-family: 'GTCineTypeRegular', sans-serif;
+    font-size: 14px;
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+    align-items: center;
+}
+
+.quote-grid{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    max-width: 800px;
+}
+
+.relative img {
+    width: 100%;
+    height: auto;
+}
+
+
+.lateral-padding {
+    padding: 0px 40px 0px 40px;
+}
+
+/* Grid for images and details*/
+
+.flex-2-el-col-grid {
+    display: flex;
+    flex-direction: column;
+    row-gap: 55vh;
+}
+
+.flex-col-grid {
+    display: flex;
+    flex-direction: column;
+    row-gap: 160px;
+}
+
+
+
+/* For text */
+
+.title-width {
+    width: 15%;
+}
+
+.text-width {
+    width: 70%;
+}
+
+
+.flex-big-grid-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-grid-row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 56px;
+}
+
+.flex-grid-button {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+    align-items: center;
+}
+
+.flex-grid-button:hover {
+    align-items: baseline;
+}
+
+.flex-grid-col-button {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+
+.flex-gif-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.next-title {
+    font-size: 88px;
+    margin: 240px 0px 240px 0px;
+    text-align: center;
+   /* height: 25vh;  */
+}
+
+.next-project {
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+@media only screen and (max-width: 700px) {
+.next-title {
+    margin: 240px 0px 160px 0px;
+}
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .title-position {
+        position: relative;
+        top: 45vh;
+        
+    }
+}
