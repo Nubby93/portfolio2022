@@ -1,0 +1,105 @@
+/* About page */
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 160px;
+    margin: 160px 40px;
+    padding-bottom: 240px;
+}
+
+
+
+.flex-col-left {
+    display: flex;
+    flex-direction: row;
+    column-gap: 360px;
+    align-items: flex-start;
+}
+
+.flex-grid-col {
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+
+    max-width: 650px;
+}
+
+.flex-subgrid {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.flex-sub-subgrid {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+.flex-row-left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+
+
+/* Training */
+
+hr {
+    color: var(--grey);
+    width: 100%;
+}
+
+
+.hover-class:hover {
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.flex-row-arrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.flex-col-24{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+
+h2 {
+    margin-left: 0;
+}
+
+.grey-text {
+    color: #7B797B;
+    font-size: 24px;
+}
+
+
+h5 {
+    font-size: 32px;
+    line-height: 8px;
+}
+
+.work-category {
+    font-family: 'GTCineTypeRegular', sans-serif;
+    font-size: 12px;
+    line-height: 8px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .flex-col-left {
+        display: flex;
+        flex-direction: column;
+        row-gap: 160px;
+    }
+}
+
