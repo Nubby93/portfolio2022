@@ -16,6 +16,43 @@
 
 
   <style>
+
+
+@media (min-width: 300px) and (max-width: 700px) {
+
+.index-featured-projects {
+    display: flex;
+    flex-direction: column-reverse !important;
+    row-gap: 80px !important;
+    align-items: center;
+}
+
+.index-featured-projects-title {
+    width: auto;   
+}
+
+h1 {
+    font-size: 56px;
+}
+    
+h2 {
+        font-size: 48px;
+} 
+
+.switchup {
+    display: flex;
+    flex-direction: column-reverse !important;
+    row-gap: 80px !important;
+    align-items: center;
+}
+
+}
+
+
+
+
+
+
 .index-featured-projects-section {
 	display: flex;
 	flex-direction: column;
@@ -34,7 +71,7 @@
 	display: flex !important;
 	flex-direction: column;
 	row-gap: 40px ;
-    width: 600px;
+    max-width: 600px;
     
 }
 
@@ -53,27 +90,7 @@
 }
 
 
-@media only screen and (max-width: 700px) {
-    .index-featured-projects {
-	display: flex;
-	flex-direction: column-reverse;
-	row-gap: 80px;
-    align-items: center;
-}
-
-.index-featured-projects-title {
-    width: 400px;
-    
-}
-
-h1 {
-        font-size: 56px;
-    }
-    
-    h2 {
-        font-size: 48px;
-    }
-} 
+ 
 
   </style>
 </head>
@@ -95,7 +112,7 @@ h1 {
 
 
     <div class="featured-flex-center">
-                    <article class="reveal index-featured-projects">
+                    <article class="reveal index-featured-projects switchup">
                         <a href="../works/habitat.html" class="simple-button hover-target"><img class="featured-img" src="../assets/works/habitat/mockup-hands.png" alt="Habitat case study"></a>
 
                         <div class="index-featured-projects-title">
@@ -110,12 +127,12 @@ h1 {
 
                     </article>
 
-                    <article class="reveal index-featured-projects">
+                    <article class="reveal index-featured-projects switchup">
                         <a href="../works/tlk.html" class="simple-button hover-target"><img class="featured-img" src="../assets/works/tlk/icons.png" alt="TheLastKnights case study"></a>
 
                         <div class="index-featured-projects-title">
                             <a href="../works/tlk.html" class="simple-button hover-target">
-                                <h3>TheLastKnights</h3>
+                                <h3>The Last Knights</h3>
                                 <!-- <p class="flex-row-center"><span>Branding</span><span>Mobile app design</span><span>Website design</span></p> -->
                             </a>
                             <a href="../works/tlk.html" class="flex-grid-button hover-target"><span>Explore case study</span> <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -187,7 +204,7 @@ h1 {
 		<a target="_blank" href="https://www.behance.net/iulian-pistol" class="socials hover-target"><img src="assets/general/icons/behance.png" alt="Behance social media"></a>
 		<a target="_blank" href="https://dribbble.com/Amnael" class="socials hover-target"><img src="assets/general/icons/dribbble.png" alt="Dribble social media"></a>
 		<a target="_blank" href="https://www.linkedin.com/in/iulian-pistol-846741130" class="socials hover-target"><img src="assets/general/icons/linkedin.png" alt="Linkedin social media"></a>
-		<a target="_blank" href="https://twitter.com/iulianpistol" class="socials hover-target"><img src="assets/general/icons/twitter.png" alt="Twitter social media"></a>
+		<a target="_blank" href="https://twitter.com/pistol-iulian" class="socials hover-target"><img src="assets/general/icons/twitter.png" alt="Twitter social media"></a>
 	</div>
 			
 	<!-- Contact icon
@@ -205,6 +222,7 @@ h1 {
   src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
   integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
   crossorigin="anonymous"></script>
+  
 <script src="./js/intro.js"></script>
 
 <script src="./js/imgcursor.js"></script>
